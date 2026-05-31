@@ -1,0 +1,10 @@
+[requires]
+opencv/4.10.0
+civetweb/1.16
+
+[generators]
+CMakeToolchain
+CMakeDeps
+
+[options]
+opencv/*:with_ffmpeg=False
